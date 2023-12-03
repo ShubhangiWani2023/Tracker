@@ -1,6 +1,19 @@
-.labels {
-  display: inline-flex;
+.component {
+  margin: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.main-content {
+  background-color: rgb(213, 236, 235);
+  border: 35px solid rgb(89, 227, 221);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 200px;
 }
 #investor {
-  display: inline-flex;
+  display: flex;
+}
+.image {
+  width: 100px;
+  height: 50px;
 }
